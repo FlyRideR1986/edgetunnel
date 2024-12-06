@@ -8,7 +8,7 @@ let subConverter = 'SUBAPI.fxxk.dedyn.io';
 let subConfig = "https://raw.githubusercontent.com/FlyRideR1986/test-pwsh/main/test/vps_acl_infi.ini";
 let subProtocol = 'https';
 let subEmoji = 'true';
-let socks5Address = 'flyrider:wuyinfei@s8.serv00.com:51515';
+let socks5Address = '';
 let parsedSocks5Address = {}; 
 let enableSocks = false;
 
