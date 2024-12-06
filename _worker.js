@@ -1,14 +1,14 @@
 
 import { connect } from 'cloudflare:sockets';
 
-let userID = '';
+let userID = 'df8d0820-dec9-4cda-bae5-c57dad83a029';
 let proxyIP = '';
 let sub = '';
 let subConverter = 'SUBAPI.fxxk.dedyn.io';
-let subConfig = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Mini_MultiMode.ini";
+let subConfig = "https://raw.githubusercontent.com/FlyRideR1986/test-pwsh/main/test/vps_acl_infi.ini";
 let subProtocol = 'https';
 let subEmoji = 'true';
-let socks5Address = '';
+let socks5Address = 'flyrider:wuyinfei@s8.serv00.com:51515';
 let parsedSocks5Address = {}; 
 let enableSocks = false;
 
@@ -25,7 +25,7 @@ let go2Socks5s = [
 	'*.loadshare.org',
 ];
 let addresses = [];
-let addressesapi = [];
+let addressesapi = ['https://addressesapi.090227.xyz/cmcc-ipv6','https://addressesapi.090227.xyz/cmcc','https://raw.githubusercontent.com/FlyRideR1986/test-pwsh/main/test/add.txt'];
 let addressesnotls = [];
 let addressesnotlsapi = [];
 let addressescsv = [];
